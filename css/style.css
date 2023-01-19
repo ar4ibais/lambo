@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Impact', sans-serif;
+  src: url(../fonts/Impact.woff2);
+}
+
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline;
+}
+
+body {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #040404;
+  line-height: 1.2;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Impact';
+  font-weight: 400;
+  font-size: 76px;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: 'Impact';
+  font-weight: 400;
+  font-size: 48px;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+.subtitle span {
+  display: block;
+  font-size: 34px;
+  color: #9F6B08;
+  padding: 10px 0;
+}
+
+.header {
+  padding-top: 25px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-left {
+  padding-left: 25px;
+}
+
+.menu-right {
+  padding-right: 80px;
+}
+
+.menu-item + .menu-item {
+  margin-left: 40px;
+}
+
+.menu-link {
+  color: #363636;
+  font-size: 16px;
+}
+
+.promo {
+  background-image: url(../images/promo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 110px;
+}
+
+.promo__text {
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo__arrow {
+  margin-top: auto;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
